@@ -799,7 +799,7 @@ p{margin:0;font-size:clamp(14.5px,3.9vw,17px);line-height:1.62;color:var(--ink-s
       <h2>Little moments I kept</h2>
       <p id="mem-hint">Tap a photo to flip it over 💭</p>
       <div class="mgrid" id="mgrid"></div>
-      <p class="small" style="opacity:.75">Tap ＋ on a frame to add a photo from your phone.</p>
+      <p class="small" style="opacity:.75"> </p>
       <div class="reveal" id="mem-reveal">
         <button class="btn pulse" id="mem-next" style="margin-top:8px">One last thing →</button>
       </div>
@@ -831,7 +831,7 @@ p{margin:0;font-size:clamp(14.5px,3.9vw,17px);line-height:1.62;color:var(--ink-s
     <h2>Settings</h2>
     <div class="field" style="margin-top:6px">
       <label>Her name (shown everywhere)</label>
-      <input type="text" id="in-name" placeholder="e.g. Ayesha" autocomplete="off" />
+      <input type="text" id="in-name" placeholder="e.g. Lulu Cat" autocomplete="off" />
     </div>
     <div class="row">
       <button class="btn sm" id="save-name">Save</button>
@@ -856,9 +856,9 @@ p{margin:0;font-size:clamp(14.5px,3.9vw,17px);line-height:1.62;color:var(--ink-s
    (You can also change the name from the ⚙️ button inside the page.)
    ================================================================== */
 const CONFIG = {
-  name: "Birthday Girl",                    // her name
+  name: "Lulu Jaan",                    // her name
   birthday: "2026-09-30T00:00:00",          // countdown target (local time)
-  from: "Always yours",                     // signature on the letter
+  from: "Dudu Jaan",                     // signature on the letter
   songUrl: "",                              // optional: "song.mp3" — leave "" to use the built-in melody
 
   bouquetNote:
@@ -887,20 +887,21 @@ const CONFIG = {
 
   letter:
     "Happy birthday.\n\n" +
-    "I hope today is gentle with you. I know you'll spend most of it at work, answering things, fixing things, holding everything together like you always do — so I wanted there to be one place today that asks nothing from you at all.\n\n" +
+    "On your special day, my biggest gift for you is my dua 🤲 may Allah always protect you, fill your heart with peace and happiness, put barakah in your life and work, guide you towards everything that is best for you, and make all your beautiful dreams come true 🤲🏻. I truly admire your dedication and will always be happy to support."
+    "These flowers may fade one day, but my dua for you never will. There is only 1 person I wanted to see smiling and its you 🌹. You are my biggest habit and i wanted to keep this habit forever. Please forgive me for small mistake 💓. I know you'll spend most of it at work. I hope you liked your gift. Every year i try to make you happy but this year my creativity help me to build something like this for you i have never think og i can make this animation.\n\n" +
     "Thank you for your patience, for your laugh, and for the small ordinary days that somehow became my favourite ones.\n\n" +
-    "Here's to another year of you. Cake, chaos, and everything good.",
+    "May Allah keep us together, healthy, happy forever INSHALLAH🤲.",
 
-  finalNote: "That's the whole surprise. Now go enjoy your day — the real celebration starts when you get home. 💙💗",
+  finalNote: "That's the whole surprise. I hope you like it bui. don't forget to rate my animation. 💙💗",
 
   // 6 memory frames. Add "src" later (e.g. src:"photos/us.jpg") or use the ＋ button on each frame.
   memories: [
-    { src:"images/pic1.jpg", caption:"the first one",  back:"Where it all started. I still remember exactly what you said." },
-    { src:"images/pic2.jpg", caption:"that day out",   back:"We walked way too far and complained the entire time. Best day." },
-    { src:"images/pic3.jpg", caption:"you, laughing",  back:"My favourite version of you — mid-laugh, not posing." },
-    { src:"images/pic4.jpg", caption:"the late night", back:"3 a.m. conversations that fixed absolutely nothing but helped everything." },
-    { src:"images/pic5.jpg", caption:"just because",   back:"No occasion. Those are somehow the ones I keep coming back to." },
-    { src:"images/pic6.jpg", caption:"more to come",   back:"This frame is for the next one. Let's go make it." }
+    { src:"images/pic1.jpg", caption:"love at office",  back:"I remember when u make my office sticker, and remember VC u when veda is beside me 😁." },
+    { src:"images/pic2.jpg", caption:"mine",   back:"Your killer looks melt my heart, this is the best post when u lower your hear and smile 🤗" },
+    { src:"images/pic3.jpg", caption:"last year",  back:"I never had 2 cake for my birthday, and here lulu is soo loving that she has 2 cute cake, looks like princess jaan 👸." },
+    { src:"images/pic4.jpg", caption:"my cute hand", back:"This smile will never get old, and your pulpy lips is my biggest weekness 👄." },
+    { src:"images/pic5.jpg", caption:"welcome my life",   back:"Never imagine in my dearm that i can get soo beautiful looking mahram, you are my property 😻." },
+    { src:"images/pic6.jpg", caption:"virtual but real",   back:"AI helps me soo much to build this, so excited to show u how i fight with AI to get this pic out of the chat 💝." }
   ]
 };
 
